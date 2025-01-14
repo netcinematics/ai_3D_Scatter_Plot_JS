@@ -6060,7 +6060,7 @@ var custom_plot_listeners = function(i_plot, params) {
 }
 //-------------------------------------INIT SCATTER
 var make_scatter = function(params) {  //ROOT ENTRY POINT
-    debugger;
+    // debugger;
 	if (!check_webgl_fallback(params)) { return; }
 	
 	var i, group;
@@ -6155,7 +6155,7 @@ var make_scatter = function(params) {  //ROOT ENTRY POINT
 		// See if any named groups are not in the group details.
 		var data_groups = [];
 		//---------------------------------------------------DATA INIT
-        debugger;
+        // debugger;
 		for (i = 0; i < params.data.length; i++) {
 			if (params.data[i].hasOwnProperty("group")) {
 				if (plots[i_plot].groups[params.data[i].group] === undefined) {
